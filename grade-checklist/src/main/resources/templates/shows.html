@@ -1,0 +1,72 @@
+<h2>IMDB top 5 episodes</h2>
+
+<table width="100%" border="solid">
+
+  <tr>
+    <td>
+        title
+        <td>
+            episode
+            <td>
+               rating
+            </td>
+        </td>
+    </td>
+  </tr>  
+  <tr th:object="${shows}">
+    <td th:text="*{title}"> </td>
+      
+        <td th:text="*{episode}">  </td>
+            
+            <td th:text="*{rating}">    </td>
+          </tr>   
+           
+      
+
+
+  <tr>
+    <td>
+        title
+        <td>
+            episode
+            <td>
+               rating
+            </td>
+        </td>
+    </td>
+  </tr>  
+  <tr>
+    <td>
+        title
+        <td>
+            episode
+            <td>
+               rating
+            </td>
+        </td>
+    </td>
+  </tr>  
+  <tr>
+    <td>
+        title
+        <td>
+            episode
+            <td>
+               rating
+            </td>
+        </td>
+    </td>
+  </tr>  
+  <tr>
+    <td>
+        title
+        <td>
+            episode
+            <td>
+               rating
+            </td>
+        </td>
+    </td>
+  </tr>  
+
+</table>
